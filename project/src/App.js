@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Interview from './Components/Interview';
-import Home from './pages/Home';
+import "./App.css"
+import Home from "./pages/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import InterviewsAll from "./pages/InterviewsAll"
 
 function App() {
-  return (
-    <>
-      <Home/>
-    </>
-  );
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path="/all" element={<InterviewsAll />} />
+				<Route path="/" element={<Home />}></Route>
+			</Routes>
+		</BrowserRouter>
+	)
 }
 
-export default App;
+export default App
