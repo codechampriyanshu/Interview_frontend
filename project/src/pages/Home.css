@@ -1,0 +1,20 @@
+.parent{
+    margin:.1%;
+    padding: .1%;
+}
+.title{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content:space-between;
+}
+.displayall{
+    color: rgb(95, 95, 216);
+
+}
+.heading-today,.heading-tomorrow,.heading-other{
+    text-decoration: underline;
+    margin-left: 1%;
+}
+
+  

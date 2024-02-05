@@ -1,0 +1,34 @@
+.main{
+    margin: .5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 5%;
+    background-color: rgb(245, 247, 249);
+}
+.join{
+  background-color: #04AA6D; 
+  border:.5px sloid gray; 
+  color: white;
+  padding:5px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 20%;
+}
+.sub-main2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sub-title{
+    color:rgb(126, 126, 186);
+    font-weight: bold;
+}
+.sub-title2{
+    color:rgb(118, 112, 112);
+    font-weight: bolder;
+}
+.sub-history{
+    color: #04AA6D;
+}
